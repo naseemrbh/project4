@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="fmohaimeed.projectapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/textView" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tname"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tops"
+        android:id="@+id/checkTop"
+        android:checked="false"
+        android:layout_below="@+id/Tname"
+        android:layout_alignStart="@+id/checkBottom" />
+    <Spinner
+        android:id="@+id/spinner_Top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tname"
+        android:layout_alignStart="@+id/spinner_Bottom">
+
+    </Spinner>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bottom"
+        android:id="@+id/checkBottom"
+        android:checked="false"
+        android:layout_below="@+id/spinner_Top"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shoes"
+        android:id="@+id/checkShoes"
+        android:checked="false"
+        android:layout_alignTop="@+id/spinner_Shoes"
+        android:layout_alignStart="@+id/checkBottom" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_Bottom"
+        android:layout_alignTop="@+id/checkBottom"
+        android:layout_toEndOf="@+id/checkBottom" />
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_Shoes"
+        android:layout_below="@+id/spinner_Bottom"
+        android:layout_alignStart="@+id/spinner_Bottom" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_Shoes"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:id="@+id/updatebtn"
+            android:layout_above="@+id/mainAdd"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:id="@+id/mainAdd"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1" />
+    </LinearLayout>
+</RelativeLayout>

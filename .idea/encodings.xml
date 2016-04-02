@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/Adapter.java" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/MainActivity.java" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/Show_all.java" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/Size.java" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/activity_edit__size.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/activity_main.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/activity_show_all.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/activity_show_others.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/content_show_all.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/custom_dialog.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/edit_Size.java" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/other_dialog.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/other_row.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/naseem/project4/row.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_edit__size.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_show_all.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_show_others.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/content_show_all.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/custom_dialog.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/other_dialog.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/other_row.xml" charset="windows-1256" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/row.xml" charset="windows-1256" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
